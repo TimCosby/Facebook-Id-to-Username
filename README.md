@@ -1,6 +1,6 @@
-Match facebook ids to names
+# Match facebook ids to names
 Intended purpose:
-Find out whose snooping through your feed
+Find out whose snooping through your facebook profile
 
 Place a file named "id.txt" in the root.
 
@@ -8,8 +8,8 @@ Inside id.txt should be facebook ids.
 To find facebook ids:
 
 1. Go to your facebook page
-2. Hit ctrl+F12 to go into the source code
-3. Hit ctrl+F
+2. Hit Ctrl+F12 to go into the source code
+3. Hit Ctrl+F
 4. Search for "InitialChatFriendsList"
 5. Copy all the numbers past "list:[" to "],shortProfiles"
 
